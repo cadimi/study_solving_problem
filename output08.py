@@ -3,7 +3,7 @@
 #        pen        20       100
 #       note         5        95
 #     eraser       110        97
-
+# x
 
 displayTuple = [
     "item", "count", "price",
