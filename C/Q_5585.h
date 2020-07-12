@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// https://www.acmicpc.net/problem/5585
+
 void Q_5585() {
     const unsigned int MONEY = 1000;
     unsigned int spend = 0;
