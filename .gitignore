@@ -1,3 +1,5 @@
 .idea
 C/cmake-build-debug
 C/CMakeLists.txt
+Python/__init__.py
+Python/venv/
