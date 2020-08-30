@@ -1,4 +1,6 @@
 # https://www.acmicpc.net/problem/2217
+# note: use max, min instead of if
+# setting sys.stdin.readline() to var might be helpful (?)
 
 import sys
 

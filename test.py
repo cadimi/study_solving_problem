@@ -1,1 +1,4 @@
-print(10 // 6)
+
+g = lambda x:x+1
+
+print(g(1))
