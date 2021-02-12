@@ -9,7 +9,7 @@ Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 """
 
-# two point
+# two pointer
 
 s = ["h", "e", "l", "l", "o"]
 
