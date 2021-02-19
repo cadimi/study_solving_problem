@@ -8,5 +8,6 @@ This is for just personal code of solving problem practice
 - suffix means status
     - n: not complete
     - r: reference. from others not me
+        - u: understood
     - not exist: done
  
