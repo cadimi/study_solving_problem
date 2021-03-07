@@ -51,10 +51,8 @@ class Solution2:
         while fast and fast.next:
             fast = fast.next.next
             rev, rev.next, slow = slow, rev, slow.next
-            print(rev.val)
         if fast:
             slow = slow.next
-
         while rev and rev.val == slow.val:
             slow, rev = slow.next, rev.next
         return not rev
@@ -68,3 +66,20 @@ one = ListNode(1, two)
 
 sol = Solution2()
 print(sol.isPalindrome2(one))
+
+"""
+# 1 2 3 2 1
+rev  rev.next  slow  fast
+---------------------------
+None            1     1
+---------------------------
+1     None      2     3
+2      1        3     1
+---------------------------
+                2
+---------------------------
+1               1
+---------------------------
+None           None
+
+"""
