@@ -24,3 +24,17 @@ def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode:
     return l1
 
 
+five = ListNode(2)
+four = ListNode(1, five)
+# three = ListNode(1, four)
+
+five2 = ListNode(3)
+four2 = ListNode(1, five2)
+# three2 = ListNode(1, four2)
+
+result = mergeTwoLists(four, four2)
+
+while result.next is not None:
+    print(result.val)
+    result = result.next
+print(result.val)
